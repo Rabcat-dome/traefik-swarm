@@ -1,6 +1,6 @@
 services:
   traefik:
-    image: traefik-test@latest
+    image: traefik-test:latest
     command:
       - --api.insecure=true
       - --providers.docker=true
