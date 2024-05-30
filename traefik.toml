@@ -6,7 +6,7 @@
 
 [providers]
   [providers.swarm]
-    endpoint = "tcp://127.0.0.1:2377"
+    endpoint = "tcp://10.211.55.13:2377"
     exposedByDefault = false
 
 [api]
