@@ -1,6 +1,6 @@
 services:
   traefik:
-    image: traefik-test:latest
+    image: 127.0.0.1:8082/repository/docker-hosted/traefik-test:latest
     command:
       - --api.insecure=true
       - --providers.docker=true
