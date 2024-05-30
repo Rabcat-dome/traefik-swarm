@@ -1,6 +1,6 @@
 services:
   traefik:
-    image: nexus_nexus:8082/repository/docker-hosted/traefik-test:latest
+    image: 10.211.55.13:8082/repository/docker-hosted/traefik-test:latest
     command:
       - --api.insecure=true
       - --providers.docker=true
