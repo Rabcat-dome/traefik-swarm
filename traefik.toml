@@ -6,7 +6,7 @@
 
 [providers]
   [providers.swarm]
-    endpoint = "tcp://10.211.55.13:2377"
+    endpoint = "unix:///var/run/docker.sock"
     exposedByDefault = false
 
 [api]
