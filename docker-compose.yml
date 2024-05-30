@@ -4,7 +4,7 @@ services:
     command:
       - --api.insecure=true
       - --api.dashboard=true
-      - --providers.swarm.endpoint="unix:///var/run/docker.sock"
+      - --providers.swarm.endpoint=unix:///var/run/docker.sock
       - --providers.swarm.exposedByDefault=false
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
