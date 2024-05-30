@@ -4,3 +4,5 @@ docker tag traefik-test:latest 127.0.0.1:8082/repository/docker-hosted/traefik-t
 
 docker login 127.0.0.1:8082
 docker push 127.0.0.1:8082/repository/docker-hosted/traefik-test:latest
+
+docker stack deploy -c docker-compose.yml --with-registry-auth traefik
